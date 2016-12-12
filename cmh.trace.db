@@ -873,3 +873,219 @@ INSERT INTO TERMS VALUES(1, "String") [42122-193]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:745)
+2016-12-12 11:49:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(2 ,[*]‘AGILE’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(2 ,‘agile’) [42000-193]
+2016-12-12 11:49:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(3 ,‘ajax’) [42000-193]
+2016-12-12 11:49:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(4 ,[*]‘ALGORITHMS’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(4 ,‘algorithms’) [42000-193]
+2016-12-12 11:49:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(5 ,[*]‘API’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(5 ,‘api’) [42000-193]
+2016-12-12 11:50:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(2,[*]‘AGILE’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(2,‘agile’) [42000-193]
+2016-12-12 11:50:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(3,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(3,‘ajax’) [42000-193]
+2016-12-12 11:50:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(4,[*]‘ALGORITHMS’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(4,‘algorithms’) [42000-193]
+2016-12-12 11:50:51 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(5,[*]‘API’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(5,‘api’) [42000-193]
+2016-12-12 11:51:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(2,[*] ‘AGILE’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(2, ‘agile’) [42000-193]
+2016-12-12 11:51:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(3, ‘ajax’) [42000-193]
+2016-12-12 11:51:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(4,[*] ‘ALGORITHMS’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(4, ‘algorithms’) [42000-193]
+2016-12-12 11:51:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(5,[*] ‘API’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(5, ‘api’) [42000-193]
+2016-12-12 11:52:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUE[*](2, ‘AGILE’) "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUE(2, ‘agile’) [42001-193]
+2016-12-12 11:52:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUE[*](3, ‘AJAX’) "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUE(3, ‘ajax’) [42001-193]
+2016-12-12 11:52:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUE[*](4, ‘ALGORITHMS’) "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUE(4, ‘algorithms’) [42001-193]
+2016-12-12 11:52:17 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUE[*](5, ‘API’) "; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUE(5, ‘api’) [42001-193]
+2016-12-12 11:52:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(2,[*] ‘AGILE’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(2, ‘agile’) [42000-193]
+2016-12-12 11:52:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(3, ‘ajax’) [42000-193]
+2016-12-12 11:52:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(4,[*] ‘ALGORITHMS’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(4, ‘algorithms’) [42000-193]
+2016-12-12 11:52:25 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(5,[*] ‘API’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(5, ‘api’) [42000-193]
+2016-12-12 11:52:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(2,[*] ‘AGILE’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(2, ‘agile’) [42000-193]
+2016-12-12 11:52:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(3, ‘ajax’) [42000-193]
+2016-12-12 11:52:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(4,[*] ‘ALGORITHMS’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(4, ‘algorithms’) [42000-193]
+2016-12-12 11:52:54 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME)
+VALUES(5,[*] ‘API’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME)
+VALUES(5, ‘api’) [42000-193]
+2016-12-12 11:53:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS(ID, NAME) VALUES(2,[*] ‘AGILE’) "; SQL statement:
+INSERT INTO TERMS(ID, NAME) VALUES(2, ‘agile’) [42000-193]
+2016-12-12 11:54:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES(2,'Array')
+
+SELECT[*] * FROM TERMS"; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES(2,'Array')
+
+SELECT * FROM TERMS [42000-193]
+2016-12-12 11:54:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS VALUES(2,'Array')
+
+SELECT[*] * FROM TERMS"; SQL statement:
+INSERT INTO TERMS VALUES(2,'Array')
+
+SELECT * FROM TERMS [42000-193]
+2016-12-12 11:55:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS
+VALUES(3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS
+VALUES(3 ,‘ajax’) [42000-193]
+2016-12-12 11:55:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS
+VALUES(4 ,[*]‘ALGORITHMS’) "; SQL statement:
+INSERT INTO TERMS
+VALUES(4 ,‘algorithms’) [42000-193]
+2016-12-12 11:55:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS
+VALUES(5 ,[*]‘API’) "; SQL statement:
+INSERT INTO TERMS
+VALUES(5 ,‘api’) [42000-193]
+2016-12-12 11:56:08 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS
+VALUES(3 ,[*]‘AJAX’), (4 ,‘ALGORITHMS’), (5 ,‘API’) "; SQL statement:
+INSERT INTO TERMS
+VALUES(3 ,‘ajax’), (4 ,‘algorithms’), (5 ,‘api’) [42000-193]
+2016-12-12 11:56:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS VALUES(3 ,[*]‘AJAX’), (4 ,‘ALGORITHMS’), (5 ,‘API’) "; SQL statement:
+INSERT INTO TERMS VALUES(3 ,‘ajax’), (4 ,‘algorithms’), (5 ,‘api’) [42000-193]
+2016-12-12 11:57:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS VALUES(3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS VALUES(3 ,‘ajax’) [42000-193]
+2016-12-12 11:57:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS VALUES (3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS VALUES (3 ,‘ajax’) [42000-193]
+2016-12-12 11:57:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3 ,[*]‘AJAX’), (4 ,‘ALGORITHMS’), (5 ,‘API’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3 ,‘ajax’), (4 ,‘algorithms’), (5 ,‘api’) [42000-193]
+2016-12-12 11:58:22 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID INT[*] PRIMARY KEY, NAME) VALUES (3 ,‘AJAX’), (4 ,‘ALGORITHMS’), (5 ,‘API’) "; expected ",, )"; SQL statement:
+INSERT INTO TERMS (ID INT PRIMARY KEY, NAME) VALUES (3 ,‘ajax’), (4 ,‘algorithms’), (5 ,‘api’) [42001-193]
+2016-12-12 11:58:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3 ,‘ajax’) [42000-193]
+2016-12-12 11:58:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "(4[*] ,‘ALGORITHMS’) "; expected "(, WITH, SELECT, FROM"; SQL statement:
+(4 ,‘algorithms’) [42001-193]
+2016-12-12 11:58:50 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "(5[*] ,‘API’) "; expected "(, WITH, SELECT, FROM"; SQL statement:
+(5 ,‘api’) [42001-193]
+2016-12-12 11:59:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3 ,[*]‘AJAX’)
+
+SELECT * FROM TERMS "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3 ,‘ajax’)
+
+SELECT * FROM TERMS [42000-193]
+2016-12-12 11:59:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3 ,‘ajax’) [42000-193]
+2016-12-12 11:59:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3 ,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3 ,‘ajax’) [42000-193]
+2016-12-12 11:59:35 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3,[*]‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3,‘ajax’) [42000-193]
+2016-12-12 11:59:42 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3, ‘ajax’) [42000-193]
+2016-12-12 11:59:56 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID INT[*], NAME) VALUES (3, ‘AJAX’) "; expected ",, )"; SQL statement:
+INSERT INTO TERMS (ID INT, NAME) VALUES (3, ‘ajax’) [42001-193]
+2016-12-12 12:00:09 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME) VALUES (3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME) VALUES (3, ‘ajax’) [42000-193]
+2016-12-12 12:00:20 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME)
+VALUES (3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME)
+VALUES (3, ‘ajax’) [42000-193]
+2016-12-12 12:00:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO TERMS (ID, NAME)
+VALUES (3,[*] ‘AJAX’) "; SQL statement:
+INSERT INTO TERMS (ID, NAME)
+VALUES (3, ‘Ajax’) [42000-193]
